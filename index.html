@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sujay K C | Backend Developer</title>
+  <meta name="description" content="Sujay K C – Backend Developer specializing in Node.js, Express.js, MongoDB, and scalable API systems." />
+  <meta property="og:title" content="Sujay K C | Backend Developer" />
+  <meta property="og:description" content="Building scalable backends that power real products." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Animated Aurora Background -->
+  <div class="aurora-container">
+    <div class="aurora-orb orb-1"></div>
+    <div class="aurora-orb orb-2"></div>
+    <div class="aurora-orb orb-3"></div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">SUJAY<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-bolt"></i> Available for Backend Roles
+      </div>
+
+      <h1 class="hero-name">
+        Sujay K C.
+      </h1>
+
+      <div class="hero-typing" id="typingText"></div>
+
+      <p class="hero-desc">
+        Building scalable backends that power real products. Based in Bengaluru, crafting APIs, audio pipelines, and automation systems that actually work in production.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">
+          View My Work <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="assets/resume.pdf" class="btn-resume glass-panel" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-file-alt"></i> Resume
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual fade-in">
+      <div class="hero-photo-container">
+        <img src="assets/sujayphoto3.jpg" alt="Sujay K C" class="hero-photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <span class="section-tag">About Me</span>
+    <h2 class="section-title fade-in">Engineering scalable solutions</h2>
+
+    <div class="about-bento">
+      <div class="bento-item main-bio glass-panel fade-in">
+        <div class="bio-header">
+          <span class="status-badge"><span class="pulse"></span> Open for Opportunities</span>
+        </div>
+        <div class="bio-content">
+          <p>
+            I'm a <strong>Junior Backend Developer</strong> at Applaunch, Bengaluru. I specialize in building the hidden machinery that makes modern applications work — from robust <strong>Node.js</strong> APIs to complex <strong>audio processing</strong> pipelines.
+          </p>
+          <p>
+            I don't just write code; I architect systems that handle the heavy lifting. My focus is always on <strong>performance, security, and scalability</strong>.
+          </p>
+        </div>
+      </div>
+
+      <div class="bento-item stat-box glass-panel fade-in">
+        <i class="fas fa-history"></i>
+        <div class="stat-content">
+          <span class="stat-val">1+</span>
+          <span class="stat-lab">Years Experience</span>
+        </div>
+      </div>
+
+      <div class="bento-item stat-box glass-panel fade-in">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <div class="stat-content">
+          <span class="stat-val">5+</span>
+          <span class="stat-lab">Production Apps</span>
+        </div>
+      </div>
+
+      <div class="bento-item philosophy glass-panel fade-in">
+        <h3 class="bento-subtitle"><i class="fas fa-quote-left"></i> Philosophy</h3>
+        <p>"Build it once, build it right. Backend engineering is about foundations that never shake."</p>
+      </div>
+
+      <div class="bento-item stat-box glass-panel fade-in">
+        <i class="fas fa-code-branch"></i>
+        <div class="stat-content">
+          <span class="stat-val">100+</span>
+          <span class="stat-lab">Scalable APIs</span>
+        </div>
+      </div>
+
+      <div class="bento-item stat-box glass-panel fade-in">
+        <i class="fas fa-terminal"></i>
+        <div class="stat-content">
+          <span class="stat-val">∞</span>
+          <span class="stat-lab">Bugs Squashed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <span class="section-tag">What I use</span>
+    <h2 class="section-title fade-in">Tech Stack</h2>
+
+    <div class="skills-container">
+      <div class="skill-category fade-in">
+        <h3 class="skill-cat-title"><i class="fas fa-server"></i> Backend</h3>
+        <div class="skill-tags">
+          <span class="skill-tag glass-panel">Node.js</span>
+          <span class="skill-tag glass-panel">Express.js</span>
+          <span class="skill-tag glass-panel">NestJS</span>
+          <span class="skill-tag glass-panel">TypeScript</span>
+          <span class="skill-tag glass-panel">REST APIs</span>
+        </div>
+      </div>
+
+      <div class="skill-category fade-in">
+        <h3 class="skill-cat-title"><i class="fas fa-database"></i> Databases & Cache</h3>
+        <div class="skill-tags">
+          <span class="skill-tag glass-panel">MongoDB</span>
+          <span class="skill-tag glass-panel">PostgreSQL</span>
+          <span class="skill-tag glass-panel">MySQL</span>
+          <span class="skill-tag glass-panel">Redis</span>
+        </div>
+      </div>
+
+      <div class="skill-category fade-in">
+        <h3 class="skill-cat-title"><i class="fas fa-tools"></i> Tools & DevOps</h3>
+        <div class="skill-tags">
+          <span class="skill-tag glass-panel">Docker</span>
+          <span class="skill-tag glass-panel">Git / Bitbucket</span>
+          <span class="skill-tag glass-panel">AWS (SES)</span>
+          <span class="skill-tag glass-panel">Postman</span>
+          <span class="skill-tag glass-panel">FFmpeg</span>
+          <span class="skill-tag glass-panel">Playwright</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <span class="section-tag">What I've built</span>
+    <h2 class="section-title fade-in">Projects</h2>
+
+    <div class="projects-grid">
+      <div class="project-card glass-panel fade-in">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-om"></i></div>
+          <div class="project-title">Wavezz - AI Meditation</div>
+        </div>
+        <div class="project-desc">
+          <ul class="exp-list" style="font-size: 13px; margin-top: 10px;">
+            <li>Built a multi-provider authentication system using JWT tokens and OTP verification for secure user access.</li>
+            <li>Developed an AI-powered meditation engine generating custom scripts via OpenAI and mixing audio with FFmpeg.</li>
+            <li>Integrated subscription management for iOS and Android, handling in-app purchase validation for both stores.</li>
+            <li>Implemented real-time push notifications via Firebase and managed scalable storage using AWS S3.</li>
+          </ul>
+        </div>
+        <div class="project-badges">
+          <span class="badge">Node.js</span>
+          <span class="badge">FFmpeg</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">AWS S3</span>
+        </div>
+
+      </div>
+
+      <div class="project-card glass-panel fade-in">
+        <div class="project-top">
+          <div class="project-icon"><i class="fab fa-linkedin"></i></div>
+          <div class="project-title">LinkedIn Catch Up</div>
+        </div>
+        <div class="project-desc">
+          <ul class="exp-list" style="font-size: 13px; margin-top: 10px;">
+            <li>Automated LinkedIn's Catch Up module to send personalized wishes daily using Playwright and Node.js.</li>
+            <li>Implemented session persistence and human-like delays to bypass bot detection and maintain account safety.</li>
+            <li>Deployed on GitHub Actions with a cron schedule for fully autonomous weekday execution at 9 AM IST.</li>
+            <li>Structured with environment-based configuration and robust retry logic to handle asynchronous UI updates reliably.</li>
+          </ul>
+        </div>
+        <div class="project-badges">
+          <span class="badge">Playwright</span>
+          <span class="badge">GitHub Actions</span>
+          <span class="badge">Node.js</span>
+        </div>
+
+      </div>
+
+      <div class="project-card glass-panel fade-in">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-bell"></i></div>
+          <div class="project-title">Emergency Alarm App</div>
+        </div>
+        <div class="project-desc">
+          <ul class="exp-list" style="font-size: 13px; margin-top: 10px;">
+            <li>Developed an SOS alert system with real-time WebSocket support and a 5-second cancellation countdown.</li>
+            <li>Created location-based logic using MongoDB geospatial queries to notify users within a 20km radius.</li>
+            <li>Built a secure authentication system supporting Email, Phone, Google, and Apple sign-in with JWT and OTP.</li>
+            <li>Implemented a notification engine that alerts both trusted contacts and nearby public users during emergencies.</li>
+          </ul>
+        </div>
+        <div class="project-badges">
+          <span class="badge">Node.js</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">Redis</span>
+          <span class="badge">WebSockets</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <span class="section-tag">My Journey</span>
+    <h2 class="section-title fade-in">Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-panel">
+          <div class="timeline-header">
+            <div>
+              <h3 class="exp-role">Junior Backend Developer</h3>
+              <h4 class="exp-company">Applaunch Bengaluru Pvt. Ltd.</h4>
+            </div>
+            <span class="exp-date">Sep 2025 – Present</span>
+          </div>
+          <ul class="exp-list">
+            <li>Developing and maintaining scalable backend APIs using <strong>Node.js, Express.js, TypeScript, and NestJS</strong>.</li>
+            <li>Designing and optimizing <strong>MongoDB</strong> schemas for high-performance data access.</li>
+            <li>Implementing secure <strong>Authentication & Authorization</strong> and complex business logic.</li>
+            <li>Collaborating via <strong>Bitbucket</strong> and validating APIs with <strong>Postman</strong>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-panel">
+          <div class="timeline-header">
+            <div>
+              <h3 class="exp-role">Web Developer Intern</h3>
+              <h4 class="exp-company">WayEva Innovations Pvt. Ltd.</h4>
+            </div>
+            <span class="exp-date">Jan 2025 – Mar 2025</span>
+          </div>
+          <ul class="exp-list">
+            <li>Built a dynamic educational platform with <strong>user authentication</strong> and course subscriptions.</li>
+            <li>Integrated <strong>payment gateways</strong> and designed <strong>MySQL</strong> databases.</li>
+            <li>Developed backend services using <strong>JavaScript and Express.js</strong>.</li>
+            <li>Maintained version control using <strong>Git and GitHub</strong>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2 class="contact-heading fade-in">Let's build something <span class="accent-line">extraordinary.</span></h2>
+    <a href="mailto:sujaykc596@gmail.com" class="contact-email glass-panel fade-in">
+      sujaykc596@gmail.com
+    </a>
+    
+    <div class="contact-socials fade-in">
+      <a href="https://github.com/Sujaykc" target="_blank" class="social-btn github glass-panel" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/sujaykc" target="_blank" class="social-btn linkedin glass-panel" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="mailto:sujaykc596@gmail.com" class="social-btn email glass-panel" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="menu-overlay" id="menuOverlay">
+    <div class="menu-content">
+      <ul class="menu-links">
+        <li><a href="#about" class="menu-link">About</a></li>
+        <li><a href="#skills" class="menu-link">Skills</a></li>
+        <li><a href="#projects" class="menu-link">Projects</a></li>
+        <li><a href="#experience" class="menu-link">Experience</a></li>
+        <li><a href="#contact" class="menu-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <span>© 2026 Sujay K C.</span>
+    <span>Bengaluru, India 🇮🇳</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
