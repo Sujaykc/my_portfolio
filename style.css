@@ -170,9 +170,9 @@ nav.scrolled {
 
 /* ===== HERO ===== */
 #hero {
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex; align-items: center; justify-content: space-between;
-  padding: 100px 5%; /* Optimized 5% Margin */
+  padding: 120px 5% 40px; /* Reduced bottom padding */
   gap: 60px;
   position: relative;
 }
@@ -357,7 +357,7 @@ nav.scrolled {
 
 /* ===== SECTIONS ===== */
 section { 
-  padding: 100px 5%; /* Optimized 5% Margin */
+  padding: 40px 5%; /* Unified consistent vertical spacing */
   position: relative; 
   scroll-margin-top: 80px; 
 }
@@ -899,10 +899,12 @@ footer {
 
 /* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 1024px) {
-  #hero { padding: 120px 5%; flex-direction: column; text-align: center; }
+  body { cursor: auto; }
+  .cursor, .cursor-ring { display: none; }
+  #hero { padding: 120px 5%; flex-direction: column-reverse; text-align: center; gap: 40px; }
   .hero-desc { margin: 0 auto 48px; }
   .hero-cta { justify-content: center; }
-  .hero-visual { display: none; }
+  .hero-visual { display: flex; margin-bottom: 20px; }
   section { padding: 80px 5%; }
   nav { padding: 20px 5%; }
   footer { padding: 40px 5%; }
@@ -914,4 +916,7 @@ footer {
   .hero-name { letter-spacing: -2px; }
   footer { flex-direction: column; gap: 20px; text-align: center; padding: 40px 4%; }
   section { padding: 60px 4%; }
+  .timeline::before, .timeline-dot { display: none; }
+  .timeline-item { padding-left: 0; }
+  .timeline-content { padding: 24px; }
 }
