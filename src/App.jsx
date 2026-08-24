@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-
+//Production testing
 const roles = ['Backend Developer', 'Node.js Architect', 'API Specialist', 'System Engineer', 'Problem Solver'];
 const navItems = ['about', 'skills', 'projects', 'experience', 'contact'];
 const projects = [
