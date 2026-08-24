@@ -32,7 +32,7 @@ A real-time SOS alerting system for public safety.
 
 ## 📈 Experience
 
-- **Junior Backend Developer** @ Applaunch Bengaluru Pvt. Ltd. (Sep 2025 – Present)
+- **Junior Backend Developer** @ Applaunch Bengaluru Pvt. Ltd. (May 2025 – June 2026)
 - **Web Developer Intern** @ WayEva Innovations Pvt. Ltd. (Jan 2025 – Mar 2025)
 
 ## 🌐 Contact
